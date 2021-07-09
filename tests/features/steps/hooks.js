@@ -12,5 +12,5 @@ Before(async () => {
 });
 
 After(async () => {
-    driver.quit();
+    await driver.quit();
 });

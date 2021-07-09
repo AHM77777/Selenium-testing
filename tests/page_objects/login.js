@@ -16,7 +16,9 @@ module.exports = {
     loginMessage: () => {
         return driver.findElement(By.tagName("span"));
     },
-    
+    loginTitle: () => {
+        return driver.findElement(By.tagName('H3'));
+    },
     typeUsername: async (text) => {
         await driver.wait(() => {
           return driver.findElement(By.name("userName")).isDisplayed();

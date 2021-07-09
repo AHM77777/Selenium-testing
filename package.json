@@ -7,7 +7,7 @@
   "author": "enroute",
   "license": "MIT",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha tests/",
+    "test": "mocha tests/",
     "cucumber": "./node_modules/.bin/cucumber-js tests/features/",
     "jest": "./node_modules/.bin/jest tests/unit"
   },
